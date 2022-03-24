@@ -1,0 +1,963 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    margin-top: -300px;
+    z-index: 1;
+}
+
+.navp{
+    background-color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.navp a{
+    font-weight: bold;
+    color: black;
+}
+.navp span{
+    font-weight: bold;
+}
+
+.navp a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    background-color: aliceblue;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 100px;
+    padding-top: 20px;
+    margin-bottom: 300px;
+}
+
+nav img{
+    width: 170px;
+    height: 50px;
+}
+
+nav a{
+    font-size: 17px;
+    color: black;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav a:hover{
+    color: gold;
+}
+
+.logoside{
+    display: flex;
+}
+
+.employ{
+    margin-top: -30px;
+    margin-left: 50px;
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.demoside{
+    width: 30%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+
+}
+
+.btn1{
+    height: 40px;
+    width: 180px;
+    margin-top: 40px;
+    background-color: rgb(252, 240, 227);
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: inset 0 0 0 0 blue;
+    transition: ease-in .3s;
+    outline: none;
+}
+
+.btn1:hover{
+    color: white;
+    border: 1px solid black;
+    box-shadow: inset 180px 0 0 0 blue;
+}
+
+
+
+.part-1{
+    display: flex;
+    padding-left: 70px;
+    margin-top: 300px;
+}
+
+.textpart{
+    width: 50%;
+    margin-top: 100px;
+}
+
+.textpart h1{
+    font-size: 70px;
+    font-family: "Recoleta";
+}
+
+.textpart p{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+}
+
+.buttons{
+    margin-top: 50px;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.buttons button{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+.buttons .b1{background: gold;
+    border: none;
+    font-family: "Work Sans",sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+    width: 50%;
+    height: 50px;
+    border-radius: 7px;
+    margin-top: 50px;
+    box-shadow: inset 0 0 0 0 blue;
+    transition: ease-in .5s;
+    outline: none;
+}
+
+.buttons .b1:hover{
+    color: white;
+    box-shadow: inset 400px 0 0 0 blue;
+    cursor: pointer;
+}
+
+/*
+  .b1:hover{
+    color: #fff;
+  }
+  .b1::before{
+    content: "";
+    position: absolute;
+    padding-top: 10px;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 40px;
+    background: blue;
+    border-radius: 5px;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+  }
+
+
+  .b1::before{
+    transform: scaleX(0);
+  }
+
+
+  .b1:hover::before{
+    transform: scaleX(1);
+}*/
+
+.buttons .b2{background: gold;
+    border: none;
+    font-family: "Work Sans",sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    margin-top: 50px;
+    box-shadow: inset 0 0 0 0 blue;
+    transition: ease-in .5s;
+    outline: none;
+}
+
+.buttons:hover{
+    color: white;
+    box-shadow: inset 400px 0 0 0 blue;
+    cursor: pointer;
+}
+#play{
+    margin-top: -3px;
+    margin-right: 5px;
+}
+
+.textpart a{
+    color: black;
+    margin-top: 50px;
+}
+
+#arrow{
+    margin-top: 20px;
+}
+
+.clickhere{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 300px;
+    color: black;
+}
+
+.clickhere a:hover{
+    text-decoration: underline;
+}
+
+.clickhere a{
+    display: flex;
+}
+
+.image-part img{
+    width: 500px;
+}
+
+.part-2{
+    margin-top: 300px;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h2header{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.images{
+    width: 70%;
+    margin: auto;
+    
+}
+
+.images img{
+    padding: 10px;
+    width: 25%;
+    background-color: aliceblue;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.downside{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.part-3{
+    padding: 20px;
+    margin-top: 180px;
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards div{
+    width: 25%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.cards img{
+    width: 100%;
+    float: right;
+    margin: auto;
+    margin-top: 2px;
+}
+
+.cards p{
+    font-family: "Work Sans",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: auto;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.card-1{
+    background-color: rgb(238, 241, 255);
+    float: right;
+}
+
+.card-2{
+    background-color: rgb(241, 255, 249);
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-3{
+    background-color: rgb(255, 241, 232);
+}
+
+div .para{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.part-4{
+    width: 100%;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.headings{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 50px;
+}
+
+.headings h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.comp{
+    font-weight: 700;
+}
+
+.emp{
+    opacity: .4;
+}
+
+.field{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 50px 20px 40px 30px;
+
+}
+
+.companies h6{
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "Work Sans",sans-serif;
+}
+
+.companies{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    letter-spacing: .5px;
+}
+
+.companies p{
+    color: #374151;
+    font-size: 17px;
+    font-family: "Work Sans",sans-serif;
+}
+
+.companies button{
+    background: gold;
+    border: none;
+    font-family: "Work Sans",sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    z-index: 1;
+    width: 35%;
+    height: 50px;
+    border-radius: 7px;
+    margin-top: 50px;
+}
+
+.part-5{
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.part-5 .h2header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.blue{
+    color: blue;
+}
+
+.boxes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(223, 224, 226);
+    padding-bottom: 50px;
+}
+
+.boxes-1 div{
+    display: flex;
+    border: 1px solid rgb(223, 224, 226);
+    width: 32%;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.boxes-1 img{
+    width: 150px;
+}
+
+.boxes-1 p{
+    margin-top: 30px;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.boxes-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxes-2 div{
+    display: flex;
+    border: 1px solid rgb(223, 224, 226);
+    width: 45%;
+    height: 200px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.boxes-2 img{
+    width: 150px;
+}
+
+.boxes-2 p{
+    margin-top: 30px;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.part-6{
+    width: 100%;
+    padding: 20px;
+}
+
+.part-6 .h2header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.brands{
+    margin: auto;
+    width: 70%;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.brands img{
+    width: 120px;
+    height: 50px;
+}
+
+.row-1, .row-2{
+    margin-top: auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-3{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.row-4{
+    display: flex;
+    justify-content: center;
+}
+
+.row-4 button{
+    background: gold;
+    border: none;
+    font-family: "Work Sans",sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    z-index: 1;
+    width: 25%;
+    height: 50px;
+    border-radius: 7px;
+    margin-top: 50px;
+}
+
+.part-7{
+    background-color: aliceblue;
+    margin-top: 150px;
+    padding: 70px;
+    padding-top: 150px;
+    padding-bottom: 130px;
+}
+
+.h2head{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.anime{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    height: 300px;
+}
+
+.anime p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.anime-1, .anime-2{
+    border: 1px solid rgb(223, 224, 226);
+    width: 47%;
+    height: 250px;
+    padding: 30px 40px 20px 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.anime img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+    margin-top: 30px;
+}
+
+.whoyou{
+    margin-left: 20px;
+}
+
+.offer{
+    display: flex;
+    justify-content: center;
+}
+
+.offer button{
+    height: 50px;
+    width: 280px;
+    margin-top: 40px;
+    background-color: gold;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 0 blue;
+    transition: ease-in .3s;
+    outline: none;
+}
+    
+.offer button:hover{
+    color: white;
+    border: none;
+    box-shadow: inset 280px 0 0 0 blue;
+}
+
+.part-8{
+    margin-top: 100px;
+}
+
+.brands-2{
+    margin: auto;
+    width: 65%;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.brands-2 img{
+    width: 200px;
+    height: 100px;
+}
+
+.brands-2 .rows-2{
+    margin: auto;
+    margin-top: -10px;
+}
+
+.part-9{
+    background-color: whitesmoke;
+    padding: 100px;
+    height: 1300px;
+}
+
+.faqs{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -1200px;
+}
+
+.mod{
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(223, 224, 226);
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+}
+
+.mod:hover{
+    background-color: rgb(203, 229, 252);
+}
+
+.modlink:hover{
+    background-color: rgb(203, 229, 252);
+}
+
+.modlink{
+    font-size: 35px;
+    color: grey;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.modlink .minus{
+    display: none;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    left: 20;
+    transition: .5s;
+}
+
+.answer::before{
+    content: "";
+    position: absolute;
+    height: 90%;
+    width: .6rem;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.answer ul li, .answer p, ol li{
+    list-style: none;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.answer span{
+    font-weight: bold;
+}
+
+.mod:target .answer{
+    max-height: 10rem;
+}
+
+.mod:target .modlink .plus{
+    display: none;
+}
+.mod:target .modlink .minus{
+    display: block;
+}
+
+.modhead{
+    margin-bottom: -1000px;
+}
+
+
+
+.faqs button{
+    background: gold;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: -600px;
+    border: none;
+    font-family: "Work Sans",sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+    width: 30%;
+    height: 50px;
+    border-radius: 7px;
+    margin-top: 50px;
+    box-shadow: inset 0 0 0 0 blue;
+    transition: ease-in .3s;
+    outline: none;
+}
+
+.faqs button:hover{
+    color: white;
+    box-shadow: inset 400px 0 0 0 blue;
+    cursor: pointer;
+}
+
+
+.part-10{
+    margin-top: 200px;
+    padding: 30px 150px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.div-1 h6{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.but{
+    display: flex;
+    
+}
+
+.but button{
+    width: 130px;
+    height: 45px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apple {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 8px 10px 8px;
+    margin-right: 20px;
+}
+
+.apple img{
+    width: 21px;
+}
+
+.apple label{
+    font-size: 17px;
+    color: white;
+    margin-top: 5px;
+}
+
+.apple {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.playstore {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 8px 10px 8px;
+}
+
+.playstore label{
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+
+.playstore img{
+    width: 36px;
+    margin-top: 5px;
+    margin-left: -10px;
+}
+
+.tel{
+    margin-top: 0px;
+}
+
+.div-1 a{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tel button{
+    background: gold;
+    border: none;
+    font-family: "Work Sans",sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    margin-top: 50px;
+    box-shadow: inset 0 0 0 0 blue;
+    transition: ease-in .5s;
+    outline: none;
+}
+
+.tel button:hover{
+    color: white;
+    box-shadow: inset 400px 0 0 0 blue;
+    cursor: pointer;
+}
+
+.part-11{
+    background-color: aliceblue;
+    padding: 50px 100px 50px 100px;
+}
+
+.line{
+    display: flex;
+    border-bottom: 1px rgb(212, 212, 212) solid;
+}
+
+.noteimage{
+    width: 30%;
+}
+
+.noteimage img{
+    width: 70%;
+}
+
+.notes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.note{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 200px;
+}
+
+#contact{
+    margin-right: 0px;
+}
+
+.note h5{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+.note p, .note a{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 17px;
+}
+
+.note a:hover{
+    text-decoration: underline;
+}
+
+.icons a{
+    margin-right: 20px;
+}
+
+
+.part-12{
+    background-color: aliceblue;
+    padding: 50px 100px 50px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
